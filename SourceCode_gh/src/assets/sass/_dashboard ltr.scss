@@ -1,0 +1,117 @@
+body.ltr {
+  .dashboard {
+    .item-header {
+      border-radius: .4rem 0rem 0 .4rem;
+    }
+
+    .item-content {
+      border-radius: 0 .4rem .4rem 0rem;
+    }
+  }
+
+  .tile-dropdown {
+    // left: 0 !important;
+    // right: unset !important;
+  }
+
+  .notifications-list {
+    .tile-dropdown {
+      right: 17px;
+      left: unset;
+    }
+  }
+
+  //////////////////////////////////////////////////
+  .tab {
+    &:before {
+      right: 5px !important;
+      left: 2px !important;
+    }
+  }
+
+  .tile-description {
+    right: unset !important;
+    left: 16px !important;
+    .circle {
+      margin-left: unset !important;
+      margin-right: 3px !important;
+    }
+  }
+  .container-checkbox {
+    padding-left: 37px !important;
+    .checkmark {
+      right: unset !important;
+      left: 0 !important;
+      &:after {
+        // border-width: 0 0px 3px 3px;
+      }
+    }
+  }
+
+  body.ltr .header-dashboard-tab {
+    .tab>div {
+      padding-left: unset !important;
+      padding-right: 1.5rem !important;
+      border-right: unset !important;
+      border-left: 1px solid #dee2e6 !important;
+
+    }
+  }
+  .notifications-list {
+    .notifications-list-item {
+      .switch {
+        margin-left: unset !important;
+        margin-right: 12px !important;
+      }
+      .tag-name {
+        margin-left: unset !important;
+        margin-right: 8px !important;
+      }
+    }
+  }
+
+  .container-radio {
+    // padding-right: unset !important;
+    padding-left: 26px !important;
+      }
+    
+    .radio-mark {
+      right: unset !important;
+      left: 0 !important;
+  }
+
+  .switch {
+    .slider {
+      cursor: pointer;
+      &:before {
+        // left: unset !important;
+        // right: 4px !important;
+      }
+    }
+  }
+
+  .control {
+    .control-type:not(:last-of-type) {
+      border-left:unset !important;
+      border-right: 1px solid $grey-goose !important;
+    }
+  }
+  //gh
+  .body-automatic-form {
+    .title {
+      right: unset !important;
+    }
+  }
+  .search-box {
+    .icon-search-input {
+      left: unset !important;
+      right: 12px !important;
+    }
+}
+.wrapIfBox{
+  padding-right: 0 !important;
+  padding-left: 1rem !important;
+  margin-right: unset !important;
+  // margin-left: 3rem !important;
+}
+}

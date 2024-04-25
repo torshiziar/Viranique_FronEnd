@@ -1,0 +1,10 @@
+body.ltr .dropdown {
+    .dropdown-menu{
+        right: .2rem !important;
+        left: unset !important;
+        text-align: left !important;
+    }
+    .btn-white:after {
+        margin-left: .3rem !important;
+    }
+}

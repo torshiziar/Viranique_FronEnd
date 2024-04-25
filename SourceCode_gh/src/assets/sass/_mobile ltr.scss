@@ -1,0 +1,17 @@
+$header-bottomNavigation-height: ($header-height + $bottom-navigation-height);
+
+body.ltr .is-mobile {
+  .main-wrapper {
+    margin-right: unset !important;
+    margin-left: 0 !important;
+  }
+  .settings .container-radio {
+    padding-right: unset !important;
+    padding-left: 31px !important;
+  }
+
+  .settings .container-checkbox {
+    padding-right: unset !important;
+    padding-left: 28px !important;
+  }
+}

@@ -1,0 +1,21 @@
+@media (max-width: 1101px) and (min-width: 992px) {
+    .wrap-accunting {
+        .fs-xs_ {
+            font-size: 12px !important;
+        }
+        .fs-sm_{
+            font-size: 14px !important;
+        }
+        
+    }
+}
+@media (max-width: 425px) {
+    .paymentSmsCard{
+        font-size: 12px !important;
+    }
+    .paymentSmsCard{
+        button,h6{
+            font-size: 12px !important;
+        }
+    }
+}

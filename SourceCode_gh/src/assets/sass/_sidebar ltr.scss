@@ -1,0 +1,24 @@
+body.ltr .side-bar-wrapper {
+ 
+  left: 0 !important;
+  border-radius: 0px 12px 12px 0px !important;
+
+  .side-bar {
+    .nav {
+      padding: 0 10px 0 7px !important;
+     
+    }
+    span{
+      margin-right: unset !important;
+      margin-left: 1rem !important;
+    }
+    a{
+      padding-right: unset !important;
+      padding-left: 1rem !important;
+    }
+  }
+}
+
+body.ltr .indicator {
+    left: 0 !important;
+}

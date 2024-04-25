@@ -1,0 +1,43 @@
+body.ltr .header-box {
+    // border-radius: 12px !important;
+    margin-right: 0.5rem !important;
+    // margin-left: unset !important;
+    padding-left: 0.5rem !important;
+    .dropdown-menu {
+        left: unset !important;
+        direction: ltr;
+        right: 1px;
+       .icon-polygon-dropdown {
+            right: 20px !important;
+            left: unset !important;
+        }
+    }
+    .wrapIconNotif{
+        margin-left: unset !important;
+        margin-right: 1.5rem !important;
+    }
+    .icon-profile{
+        margin-left: unset !important;
+        margin-right: 0.5rem !important;
+    }
+    .icon-calendar{
+            padding-left: 1.5rem !important;
+    }
+    .CurrentTime{
+        border-right: 1px solid #dee2e6 !important;
+    }
+}
+
+body.ltr .avatar {
+    .icon-edit-profile {
+       right: -10px;
+    }
+}
+
+// body.ltr .ReactModal__Content{
+//     left: 1356px !important;
+// }
+body.ltr .ReactModal__Content.ReactModal__Content--after-open{
+    margin-right: unset !important;
+    margin-left: auto !important;
+}
